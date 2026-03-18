@@ -14,7 +14,7 @@ const InterestsCard = ({ interests }) => (
 
 const ProfileCard = (props) => {
 
-const profileImages = ['/sponge1.png', '/sponge2.png', '/sponge3.png', '/sponge4.png', '/sponge5.png'];
+const profileImages = ['/computer-mediated-harm-tinder/sponge1.png', '/computer-mediated-harm-tinder/sponge2.png', '/computer-mediated-harm-tinder/sponge3.png', '/computer-mediated-harm-tinder/sponge4.png', '/computer-mediated-harm-tinder/sponge5.png'];
 
  return(
     <div className="profile-card">
