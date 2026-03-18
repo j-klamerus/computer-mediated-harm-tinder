@@ -1,0 +1,374 @@
+/* Warning Text Styles */
+.register-warning {
+  display: block;
+  width: 100%;
+  margin: 2rem 0 0 0;
+  padding: 0.8rem 0;
+  text-align: center;
+  color: #b32323;
+  font-weight: 600;
+  font-size: 1rem;
+  background: #fff0f3;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(253,58,115,0.07);
+}
+/* ID Verification Section Styles */
+.id-verification-section {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.id-verification-section h3 {
+  color: #FD3A73;
+  margin-bottom: 1rem;
+}
+.id-verification-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(253,58,115,0.08);
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 350px;
+}
+.id-upload-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.id-upload-btn {
+  background: #FD3A73;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: not-allowed;
+  opacity: 0.7;
+  margin-top: 0.5rem;
+}
+.id-verification-info {
+  text-align: center;
+}
+/* Register Page Accent Color */
+.register-container h2 {
+  color: #FD3A73;
+}
+
+.form-group input:focus {
+  border-color: #FD3A73;
+  outline: 1px solid #FD3A73;
+}
+
+.register-submit-btn {
+  background: #FD3A73;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.2s;
+}
+.register-submit-btn:hover {
+  background: #e02e63;
+}
+/* Login/Register Form Centering */
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+.register-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.form-group label {
+  margin-bottom: 0.3rem;
+}
+
+.form-group input {
+  width: 250px;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+/* Interests Card Styles */
+.interests-card {
+  background: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.interests-card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+.interests-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.interest-tag {
+  background: #e0e7ff;
+  color: #3b3b3b;
+  border-radius: 20px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin: 0.2rem 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+}
+/* Profile Card Styles */
+.profile-card {
+	background: #fff;
+	border-radius: 16px;
+	box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+	padding: 2rem;
+	max-width: 350px;
+	margin: 2rem auto;
+	text-align: center;
+}
+
+.profile-card img {
+	width:  200px;
+	height: 200px;
+	object-fit: cover;
+	margin-bottom: 1rem;
+	border: 3px solid #eee;
+}
+
+.profile-card h1 {
+	font-size: 1.5rem;
+	margin: 0.5rem 0;
+	color: #333;
+}
+
+.profile-card p {
+	color: #666;
+	margin: 0.5rem 0;
+	font-size: 1rem;
+}
+
+/* CSS */
+.button-3 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+/* CSS */
+.button-no {
+  appearance: none;
+  background-color: #b32323;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-no:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-no:hover {
+  background-color: #b32323;
+}
+
+.button-no:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-no:disabled {
+  background-color: #b32323;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-no:active {
+  background-color: #b32323;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carousel-btn {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+.end-text {
+    text-align: center;
+    margin: auto;
+    font-size: large;
+}
+
+.register-container {
+  max-width: 420px;
+  margin: 60px auto;
+  padding: 32px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 28px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #444;
+}
+
+input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #0066cc;
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.15);
+}
+
+.error {
+  color: #d32f2f;
+  font-size: 0.85rem;
+  margin-top: 5px;
+  display: block;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.submit-btn:hover {
+  background: #0055b3;
+}
+
+.learn-text {
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.feed-header {
+    margin: auto;
+    text-align: center;
+}
