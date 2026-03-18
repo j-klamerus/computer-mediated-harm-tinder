@@ -1,3 +1,28 @@
+/* Feed Header Horizontal Nav */
+.feed-header-nav {
+  background: #fff;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.feed-nav-list {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0 2rem;
+}
+.feed-nav-item {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #FD3A73;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.feed-nav-item:hover {
+  color: #b32323;
+}
 /* Warning Text Styles */
 .register-warning {
   display: block;

@@ -5,6 +5,7 @@ import { createHashRouter } from "react-router-dom";
 import App from "./App";
 import LearnMore from "./components/LearnMore";
 import Feed from "./components/Feed";
+import Resources from "./components/Resources";
 
 export const router = createHashRouter([
   {
@@ -18,5 +19,9 @@ export const router = createHashRouter([
   {
     path: "/feed",
     element: <Feed />
+  },
+  {
+    path: "/resources",
+    element: <Resources/>
   }
 ]);

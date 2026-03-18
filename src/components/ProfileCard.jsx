@@ -17,7 +17,10 @@ const ProfileCard = (props) => {
 const profileImages = ['/computer-mediated-harm-tinder/sponge1.png', '/computer-mediated-harm-tinder/sponge2.png', '/computer-mediated-harm-tinder/sponge3.png', '/computer-mediated-harm-tinder/sponge4.png', '/computer-mediated-harm-tinder/sponge5.png'];
 
  return(
-    <div className="profile-card">
+    <div className="profile-card" style={{position: 'relative'}}>
+        <div className="profile-emoji" style={{position: 'absolute', top: '1rem', right: '1rem', fontSize: '1rem'}}>
+            {props.emoji}
+        </div>
         <h1>{props.name} {props.age}</h1>
         <p><strong>Looking for: </strong>{props.goal}</p>
         <p><strong>About: </strong>{props.bio}</p>

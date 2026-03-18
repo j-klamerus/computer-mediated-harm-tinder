@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import ProfileCard from './ProfileCard';
+import HeaderComponent from './HeaderComponent';
 
 const Feed = () => {
 
@@ -10,11 +11,12 @@ const Feed = () => {
     const date = `${current.getMonth() + 1}/${current.getDate()}/${current.getFullYear()}`;
 
     return(
-        <>
-            <h1 className='feed-header'>Todays feed : {date}</h1>
-            <ProfileCard name="Jacob ✅" age="23" goal="long term relationship" bio={loremBio} interests={interestsArray}/>
-            <ProfileCard name="George ✅" age="23" goal="not sure" bio={loremBio} interests={interestsArray}/>
-            <ProfileCard name="Kyle ❌" age="24" goal="long term, open to short" bio={loremBio} interests={interestsArray}/>
+        <> 
+            <HeaderComponent></HeaderComponent>
+            <h1 className='feed-header'>Todays Tinder feed : {date}</h1>
+            <ProfileCard name="Jacob ✅" age="23" goal="long term relationship" bio={loremBio} interests={interestsArray} emoji={"❤️ likes you"}/>
+            <ProfileCard name="George ✅" age="23" goal="not sure" bio={loremBio} interests={interestsArray} emoji={"❤️ likes you"}/>
+            <ProfileCard name="Kyle ❌" age="24" goal="long term, open to short" bio={loremBio} interests={interestsArray} emoji={"❤️ likes you"}/>
             <ProfileCard name="Shiloh ✅" age="24" goal="long term relationship" bio={loremBio} interests={interestsArray}/>
             <ProfileCard name="Marcus ❌" age="23" goal="not sure" bio={loremBio} interests={interestsArray}/>
             <p className='end-text'>Thats all for today! Check back tomorrow for more!</p>
