@@ -68,7 +68,8 @@ const LoginScreen = () => {
       </div>
       <div>
         <p className="register-warning"> Lying about your age will result in a permanent ban from the platform </p>
-        <Link to="Learn" className={'learn-text'}>Learn More</Link>
+        <p className="register-warning"> We strongly recomend everyone verify their account. Certain account features will be limited if your account is not verified.</p>
+        <Link to="/resources"><p className='learn-text'>Learn more</p></Link>
       </div>
     </div>
     )

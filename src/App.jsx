@@ -10,9 +10,6 @@ function App() {
     <>
       <HeaderComponent></HeaderComponent>
       <LoginScreen></LoginScreen>
-      <footer>
-        Footer
-      </footer>
     </>
   )
 }

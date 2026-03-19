@@ -6,6 +6,7 @@ import App from "./App";
 import LearnMore from "./components/LearnMore";
 import Feed from "./components/Feed";
 import Resources from "./components/Resources";
+import About from "./components/About";
 
 export const router = createHashRouter([
   {
@@ -23,5 +24,9 @@ export const router = createHashRouter([
   {
     path: "/resources",
     element: <Resources/>
+  },
+  {
+    path: "/about",
+    element: <About/>
   }
 ]);
