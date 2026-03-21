@@ -6,7 +6,7 @@ const Resources = () => {
         <>
             <HeaderComponent></HeaderComponent>
             <div className="resources-safety-minimal">
-                <p>Note: infomation listed here is taken from tinders <a href='https://policies.tinder.com/community-resources/safety-tips/intl/en/?lang=en'>website.</a></p>
+                <p>Note: infomation listed here is taken from tinders <a href='https://policies.tinder.com/community-resources/safety-tips/intl/en/?lang=en' target="_blank">website.</a></p>
                 <h1>Safety Tips</h1>
                 <p>Meeting new people is exciting, but you should always be cautious when interacting with someone you don’t know. Use your best judgment and put your safety first, whether you’re sending your first message or meeting in-person. While you can’t control the actions of others, there are things you can do to help stay safe during your Tinder experience.</p>
                 <h2>Online safety</h2>
