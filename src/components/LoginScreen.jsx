@@ -43,7 +43,7 @@ const LoginScreen = () => {
             type="tel"
             id="phone"
             name="phone"
-            placeholder="+12025550123"
+            placeholder="+zzz-zzz-zzzz"
           />
         </div>
         <Link to="/feed">
