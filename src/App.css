@@ -1,3 +1,35 @@
+/* Minimal style for resources safety section */
+.resources-safety-minimal {
+  background: #fafbfc;
+  border-radius: 10px;
+  padding: 2rem 1.5rem;
+  margin: 2rem 0;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.resources-safety-minimal h1,
+.resources-safety-minimal h2 {
+  color: #FD3A73;
+  margin-top: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+.resources-safety-minimal p {
+  color: #444;
+  font-size: 1rem;
+  margin: 0.5rem 0 1.2rem 0;
+  line-height: 1.6;
+}
+.resources-safety-minimal ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.resources-safety-minimal li {
+  margin-bottom: 0.5rem;
+  color: #222;
+  font-size: 1rem;
+}
 .feed-header-nav {
   background: #fff;
   padding: 1rem 0;
